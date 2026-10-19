@@ -18,7 +18,7 @@ A lot of good high school research gets weakened by avoidable methodology gaps: 
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/scifair-toolkit.git
+git clone https://github.com/Kero105/scifair-toolkit.git
 cd scifair-toolkit
 pip install -e .
 ```
@@ -62,6 +62,15 @@ n_needed = estimate_required_sample_size(
     power=0.80,
 )
 print(f"You need at least {n_needed} repetitions per condition.")
+```
+
+## Tests
+
+The tests check the statistics against SciPy and known textbook values, and make sure the trial sequences come out balanced and reproducible.
+
+```bash
+pip install -e . pytest
+pytest
 ```
 
 ## Background
