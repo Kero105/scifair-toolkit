@@ -1,0 +1,14 @@
+# Python build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test and tool caches
+.pytest_cache/
+.venv/
+venv/
+
+# OS files
+.DS_Store
